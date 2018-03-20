@@ -1,6 +1,6 @@
 {
   "name": "lotran",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Merge translations from local JSON files with translations from API, and serve them.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
