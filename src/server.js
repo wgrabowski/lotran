@@ -33,7 +33,7 @@ const start = (translationsDir, pattern, apiUrl, port) => {
   app.get('/translations/:lang', serveTranslations);
 
   app.listen(port, () => {
-    console.log('Lotr server is listening on port ${port}.');
+    console.log(`Lotran server is listening on port ${port}.`);
     console.log(`Translations from ${pattern} files found in ${normalizedDir} are merged with translations from ${apiUrl} and server under endpoint: translations/{lang}`);
   });
 };

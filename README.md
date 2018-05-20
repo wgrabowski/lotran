@@ -1,4 +1,4 @@
-# Lotr
+# Lotran
 Local translations server
 # Why?
 This project was created to ease working with translations for ```ngx-translate``` and suit some specific needs. 
@@ -19,9 +19,6 @@ Options:
   -p, --port   Port to serve translations on                     [default: 4300]
   -h, --help   Show help                                               [boolean]
 
----
-
-Missing required arguments: d, u
 ```
 ## Example
 * you use some API endpoint for getting translations in key:value form, i.e ```myapp.com/translations/en``` for english translations, ```myapp.com/translations/pl``` for polish translations etc.
